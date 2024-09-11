@@ -2,7 +2,7 @@ Hey everyone! My name is Charan, an incoming Information Management and Statisti
 
 I want to leverage data science, machine learning, and corporate valuation principles such as the discounted cash flow model, to create a valuable tool to investors in this project.
 
-This project involves data collection, analysis of the whole SaaS industry based on this datga, and using the information I collected to create a "partial" Discounted Cash Flow Analysis machine learning model, helping investors take out assumptions in forecasting cash flows when valuing businesses. The DCF model is one of the most important valuation principles, and I hope to leverage that in this project. More information inside my code notebooks!
+This project involves data collection, analysis of the whole SaaS industry based on this data, and using the information I collected to create a "partial" Discounted Cash Flow Analysis machine learning model, helping investors take out assumptions in forecasting cash flows when valuing businesses. The DCF model is one of the most important valuation principles, and I hope to leverage that in this project. More information inside my code notebooks!
 
 Here’s an overview of everything I’ve done! (So far!)
 
