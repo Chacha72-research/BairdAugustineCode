@@ -14,15 +14,13 @@ This project aims to provide investors with insights into the public SaaS (Softw
 - **Exploratory Data Analysis (EDA)**: I utilized **NumPy**, **pandas**, and **matplotlib** to analyze and clean the data, producing over 15 visualizations. This analysis provides insights into the financial health and performance of these companies.
 - **Machine Learning Models**: I developed and trained **deep learning models** (using **TensorFlow**, **Keras**, and **scikit-learn**) to predict **unlevered free cash flows (UFCF)**. These models are designed to assist investors in applying the DCF framework more effectively.
 
-### How to Use the Project:
-1. **Data Collection**:
-   - The folder `Data Collection` includes:
+### How to Read and Understand this Project in Order: (each notebook also has markdown text to help explain my processes and coding procedures)
+1. Look Through **Data Collection** in this order:
      - **Valuation Metrics**: Raw financial and company data sourced from APIs.
      - **Exploratory Analysis**: Visualizations and initial insights.
      - **Partial-DCF ML Model Processing**: Preprocessing steps for training the DCF forecasting models.
    
-2. **Models**:
-   - The folder `Models` contains the trained models for UFCF forecasting:
+2. Look Through **Modeling** in this order:
      - **Neural Network + Random Forest Model Training**: Deep learning models and random forest for robust cash flow prediction.
      - **Polynomial Regression Modeling**: Alternative regression models for comparison and future value prediction.
      - **Putting it All Together**: Integration of saved models for UFCF prediction over the next three years.
