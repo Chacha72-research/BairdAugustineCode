@@ -1,8 +1,8 @@
-Hey everyone! My name is Charan, an incoming Information Management and Statistics sophomore at UC Santa Cruz. With the help of Python, Yahoo Finance, and Google Sheets, I’m developing a project that compiles valuation information on the public SaaS (Software as a Service) landscape to help investors value private SaaS firms. (172+ Public SaaS companies!!) Public trends in public companies are usually a big indicator of how much value a new and upcoming private SaaS firm can create. 
+Hey everyone! My name is Charan, an incoming Information Management and Statistics sophomore at UC Santa Cruz. With the help of Python, Yahoo Finance, and Google Sheets, I’m developing a project that compiles valuation information on the public SaaS (Software as a Service) landscape to help investors value private SaaS firms. (172+ Public SaaS companies!!) Public trends in publicly traded SaaS companies are usually a big indicator of how much value a new and upcoming private SaaS firm can create. 
 
-I want to leverage data science, machine learning, and corporate valuation principles such as the discounted cash flow model to create a valuable tool in this project.
+I want to leverage data science, machine learning, and corporate valuation principles such as the discounted cash flow model, to create a valuable tool to investors in this project.
 
-This project involves data collection, analysis, and using the information I collected to create a "partial" Discounted Cash Flow Analysis machine learning model, helping investors take out assumptions when valuing businesses. More information inside my code notebooks!
+This project involves data collection, analysis of the whole SaaS industry based on this datga, and using the information I collected to create a "partial" Discounted Cash Flow Analysis machine learning model, helping investors take out assumptions in forecasting cash flows when valuing businesses. The DCF model is one of the most important valuation principles, and I hope to leverage that in this project. More information inside my code notebooks!
 
 Here’s an overview of everything I’ve done! (So far!)
 
@@ -14,12 +14,12 @@ The rest of my project and explanations can be found in each code notebook. Take
 Data Collection Folder:
 1. Valuation Metrics
 2. Exploratory Analysis
-3. Partial-DCF Processing
+3. Partial-DCF ML Model Processing
 
 Models Folder:
 1. Neural Network + Random Forest Model Training (Deep Learning Models)
 2. Polynomial Regression Modeling for future Values
-3. Putting it all together: Using saved deep learning models for predicting cash flows for next 3 years
+3. Putting it all together: Using saved deep learning models for predicting unlevered free cash flows for next 3 years
 
 I compiled a bunch of key insights from my data:
 https://docs.google.com/document/d/1DjHiHK9KNZ35h3IX4NQttNDcuIKvfV4gLdmymOlWx-s/edit?usp=sharing 
