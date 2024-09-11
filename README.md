@@ -38,4 +38,5 @@ Thanks for taking the time to look through my project! Please feel free to email
 
 
 **Credits to EODHD Financial API and yfinance API for project data**
-
+Additional Data Used:
+https://docs.google.com/spreadsheets/d/1MeeeVvYWWZYqgge2MPyxj_VMEBmVgPVltq3V4NXZH_E/edit?gid=1211987008#gid=1211987008 
