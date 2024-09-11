@@ -1,44 +1,58 @@
-Hey everyone! My name is Charan, an incoming Information Management and Statistics sophomore at UC Santa Cruz. With the help of Python, Yahoo Finance, and Google Sheets, I’m developing a project that compiles valuation information on the public SaaS (Software as a Service) landscape to help investors value private SaaS firms. (172+ Public SaaS companies!!) Public trends in publicly traded SaaS companies are usually a big indicator of how much value a new and upcoming private SaaS firm can create. 
+## SaaS Valuation Tool Project - README
 
-I want to leverage data science, machine learning, and corporate valuation principles such as the discounted cash flow model, to create a valuable tool to investors in this project.
+My name is Charan Rameshkumar, an incoming sophomore at UC Santa Cruz, and here is my SaaS Valuation Project! 
 
-This project involves data collection, analysis of the whole SaaS industry based on this data, and using the information I collected to create a "partial" Discounted Cash Flow Analysis machine learning model, helping investors take out assumptions in forecasting cash flows when valuing businesses. The DCF model is one of the most important valuation principles, and I hope to leverage that in this project. More information inside my code notebooks!
+**Project Overview:**
+This project aims to provide investors with insights into the public SaaS (Software as a Service) landscape, helping them to better evaluate and forecast the value of new and upcoming private SaaS firms. By analyzing trends in public SaaS companies, this tool leverages corporate valuation principles—most notably the **Discounted Cash Flow (DCF) model**—to make more accurate predictions about the future cash flows of SaaS companies.
 
-Here’s an overview of everything I’ve done! (So far!)
+### Key Goals:
+1. **Public SaaS Company Insights**: Provide investors with a detailed overview of how large public SaaS companies are performing across several key metrics. The data is visualized through a **Tableau dashboard**, which offers an intuitive way to track these trends and support investment decisions in new and emerging private SaaS firms.
+2. **Forecasting Future Cash Flows**: Equip investors with a machine learning tool that forecasts **unlevered free cash flows (UFCF)** for private SaaS firms. These forecasts are based on models trained using data from over 170 public SaaS companies, removing some of the guesswork from traditional financial models.
 
-I first started by utilizing the =GOOGLEFINANCE command on Google Sheets to compile basic company information (i.e Market Cap, Profit Margin) based on their tickers, as well as using a public SaaS company database I found. Here is the comprehensive spreadsheet of these values:
-https://docs.google.com/spreadsheets/d/1eJjBRiNbxmXz46NK0kBK_lSnL67r07sgCjXFRDalDFI/edit?usp=sharing 
+### Project Features:
+- **Data Collection**: Using Python, I built web scrapers to pull data from APIs like Yahoo Finance (`yfinance`) and EODHD Financial API. The data collected includes financial statements, cash flow trends, and various valuation metrics.
+- **Exploratory Data Analysis (EDA)**: I utilized **NumPy**, **pandas**, and **matplotlib** to analyze and clean the data, producing over 15 visualizations. This analysis provides insights into the financial health and performance of these companies.
+- **Machine Learning Models**: I developed and trained **deep learning models** (using **TensorFlow**, **Keras**, and **scikit-learn**) to predict **unlevered free cash flows (UFCF)**. These models are designed to assist investors in applying the DCF framework more effectively.
 
-The rest of my project and explanations can be found in each code notebook. Take a look at the rest of my project in this order.
+### How to Use the Project:
+1. **Data Collection**:
+   - The folder `Data Collection` includes:
+     - **Valuation Metrics**: Raw financial and company data sourced from APIs.
+     - **Exploratory Analysis**: Visualizations and initial insights.
+     - **Partial-DCF ML Model Processing**: Preprocessing steps for training the DCF forecasting models.
+   
+2. **Models**:
+   - The folder `Models` contains the trained models for UFCF forecasting:
+     - **Neural Network + Random Forest Model Training**: Deep learning models and random forest for robust cash flow prediction.
+     - **Polynomial Regression Modeling**: Alternative regression models for comparison and future value prediction.
+     - **Putting it All Together**: Integration of saved models for UFCF prediction over the next three years.
 
-Data Collection Folder:
-1. Valuation Metrics
-2. Exploratory Analysis
-3. Partial-DCF ML Model Processing
+3. **Visualization**:
+   - Access the **Tableau Dashboard** here: [https://public.tableau.com/views/BairdAugustineFinalDataProject/Story1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link](https://public.tableau.com/views/BairdAugustineFinalDataProject/Story1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link). This is a constantly updated visualization of key metrics for public SaaS companies, designed to help investors make informed decisions about upcoming SaaS firms.
 
-Models Folder:
-1. Neural Network + Random Forest Model Training (Deep Learning Models)
-2. Polynomial Regression Modeling for future Values
-3. Putting it all together: Using saved deep learning models for predicting unlevered free cash flows for next 3 years
+### Key Insights:
+Some key insights can be found in the [compiled document](https://docs.google.com/document/d/1DjHiHK9KNZ35h3IX4NQttNDcuIKvfV4gLdmymOlWx-s/edit?usp=sharing), which are also integrated into the **Tableau Story Dashboard**.
 
-I compiled a bunch of key insights from my data:
-https://docs.google.com/document/d/1DjHiHK9KNZ35h3IX4NQttNDcuIKvfV4gLdmymOlWx-s/edit?usp=sharing 
+### Tools & Technologies:
+- **Languages**: Python (NumPy, pandas, matplotlib, TensorFlow, Keras, scikit-learn)
+- **APIs**: `yfinance`, EODHD Financial API
+- **Visualization**: Tableau
+- **Machine Learning**: Deep Learning, Random Forests, Polynomial Regression
 
---> Which I then used to create a comprehensive Tableau Story Dashboard on top SaaS companies and their key insights here: 
-https://public.tableau.com/views/BairdAugustineFinalDataProject/Story1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link 
+### Future Work:
+- **Repository Organization**: Organizing and refining the spreadsheets and CSV files used throughout the project.
+- **Model Accuracy**: Continuously improving model accuracy and adding more detailed metrics to the Tableau dashboard.
 
-This dashboard is always being updated with new information and more companies from the public SaaS firm list!
+### Data Sources:
+- **Primary Data Collection**: Yahoo Finance via `yfinance` and EODHD Financial API.
+- **Supplementary Data**: Additional data from [https://docs.google.com/spreadsheets/d/1MeeeVvYWWZYqgge2MPyxj_VMEBmVgPVltq3V4NXZH_E/edit?gid=1211987008#gid=1211987008](https://docs.google.com/spreadsheets/d/1MeeeVvYWWZYqgge2MPyxj_VMEBmVgPVltq3V4NXZH_E/edit?gid=1211987008#gid=1211987008).
 
+Feel free to reach out to me at **crameshk@ucsc.edu** with any questions or suggestions!
 
-Future updates with project:
-- Refine organization with a repository of key spreadsheets and CSV files used throughout the code.
-- Improve model accuracy, and improve Tableau Dashboard with more detail.
+---
 
-Thanks for taking the time to look through my project! Please feel free to email me at: crameshk@ucsc.edu for further questions.
+**Credits**:
+- Data provided by Yahoo Finance, EODHD Financial API, and public SaaS firm databases.
+- Special thanks to **Google Sheets** for providing a quick way to start data collection via `=GOOGLEFINANCE`.
+- Special thanks to everyone at BairdAugustine for providing suggestions on better metrics and visualization tips :)
 
-
-**Credits to EODHD Financial API and yfinance API for project data**
-
-
-Additional Data Used:
-https://docs.google.com/spreadsheets/d/1MeeeVvYWWZYqgge2MPyxj_VMEBmVgPVltq3V4NXZH_E/edit?gid=1211987008#gid=1211987008 
