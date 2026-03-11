@@ -1,6 +1,6 @@
 ## SaaS Valuation Tool Project - README
 
-We are Charan Rameshkumar and Tharun Sankar, here is our SaaS Valuation Project associated with BairdAugustine's internship program.
+We are Charan Rameshkumar and Tharun Sankar, this is our SaaS Valuation Project associated with BairdAugustine's internship program.
 
 **Project Overview:**
 This project aims to provide investors with insights into the public SaaS (Software as a Service) landscape, helping them to better evaluate and forecast the value of new and upcoming private SaaS firms. By analyzing trends in public SaaS companies, this tool leverages corporate valuation principles—most notably the **Discounted Cash Flow (DCF) model**—to make more accurate predictions about the future cash flows of SaaS companies.
